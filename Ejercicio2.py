@@ -1,13 +1,9 @@
-#Una juguetería tiene mucho éxito en dos de sus productos: payasos y muñecas. Suele hacer venta por correo y la empresa de logística les cobra por peso de cada paquete, así que deben calcular el peso de los payasos y muñecas que saldrán en cada paquete a demanda. Cada payaso pesa 112 g y cada muñeca 75 g. Un cliente frecuente pide la cantidad de 23 payasos y 54 muñecas, realiza un programa que muestre el peso total de toda la venta.
+#Crear un programa que tenga una variable con la cadena “Separado” y un carácter de coma (,); e inserte el carácter entre cada letra de la cadena. Ej: separar y , debería devolver s,e,p,a,r,a,r
 
-#Pista: Suponiendo que un cliente pide 5 payasos y 3 muñecas, la juguetería debería hacer la multiplicación de la cantidad de payasos con su peso, al igual que las muñecas; al tener ambos totales de peso, se debe sumar.
+#Pista: Debes utilizar un método de las cadenas llamado “Replace”, recuerda que la posición de los caracteres empieza en 0.
 
-#23 Payasos --> 112 g
-#54 Munecas --> 75g
+palabra = "eparado"
+print(palabra)
 
-CantidadPayasos = 23
-CantidadMunecas = 54
-
-Procedimiento = ((CantidadPayasos * 112) + (CantidadMunecas * 75))
-
-print("El peso total es de: ",Procedimiento)
+reemplazar = palabra.replace("" , ",")
+print("S ",reemplazar)
