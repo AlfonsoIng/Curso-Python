@@ -1,4 +1,6 @@
-#Se desea tener un algoritmo que permita determinar y mostrar el promedio que ha obtenido un alumno en un determinado curso, conociendo las notas de: tres prácticas, el examen parcial y el examen final.
+#Se desea tener un algoritmo que permita determinar y mostrar el promedio
+# que ha obtenido un alumno en un determinado curso, conociendo las notas de:
+#tres prácticas, el examen parcial y el examen final.
 
 #Considere:
 
